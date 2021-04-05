@@ -16,7 +16,7 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
     </head>
-    <body>
+    <body style="background-image:url('https://www.flyingfishlab.com/wp-content/uploads/2018/01/uni-food-background.jpg');">
         
 
 <div class="sidenav">
@@ -27,16 +27,16 @@
          </div>
          
       </div>
-      <div class="main">
+      <div class="main " >
          <div class="col-md-6 col-sm-12">
-            <div class="login-form">
+            <div class="login-form bg-dark border p-4 " style="border-radius:50px;">
                <form method='POST' action=""> {% csrf_token %}
                   <div class="form-group">
-                     <label>User Name</label>
+                     <label><h3 class='text-white'>User Name</h3></label>
                      <input name='uname' type="text" class="form-control" placeholder="User Name">
                   </div>
                   <div class="form-group">
-                     <label>Password</label>
+                     <label><h3 class='text-white'>Password</h3></label>
                      <input name="pwd" type="password" class="form-control" placeholder="Password">
                   </div>
                   <button type="submit" class="btn btn-success">Login</button>
